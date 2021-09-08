@@ -206,6 +206,9 @@
       padding: 3rem;
     }
   }
+  .thanku {
+    display: none;
+  }
   &__form-field {
     margin-bottom: 4rem;
     @include respond(phone) {
