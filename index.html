@@ -289,8 +289,8 @@
           </span>
         </h2>
         <div
+          netlify
           name="contact"
-          data-netlify="true"
           class="contact__form-container"
           method="POST"
         >
@@ -329,7 +329,11 @@
                 id="message"
               ></textarea>
             </div>
-            <button type="submit" class="btn btn--theme contact__btn">
+            <button
+              id="submit"
+              type="submit"
+              class="btn btn--theme contact__btn"
+            >
               Submit
             </button>
           </form>
